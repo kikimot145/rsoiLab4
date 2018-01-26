@@ -90,17 +90,16 @@ body {
 	height: 20px;
 	background-color: #FFA393;
 	margin: auto;
-	visibility: hidden;
 }
 
 #msgText {
 	position: relative;
-	left: -200px;
+	left: -300px;
 }
 
 #mid {
 	width: 1024px;
-	height: 600px;
+	height: 500px;
 	background-color: #FFD0B0;
 	margin: auto;
 }
@@ -108,6 +107,7 @@ body {
 #pageTitle {
 	position: relative;
 	left: 20px;
+	width: 700px;
 	font: 32pt sans-serif;
 	font-weight: bold;
 	text-decoration: none;
@@ -168,17 +168,19 @@ body {
 	width: 40%;
 	height: 50px;
 	margin-top: 2;
-	padding-left: 20px;
+	position: absolute;
+	
+	bottom: 20px;
 }
 
 #btnPrev {
 	text-align: left;
-	
+	left: 210px;
 }
 
 #btnNext {
 	text-align: right;
-	
+	right: 210px;
 }
 
 .navBtns a {

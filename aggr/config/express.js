@@ -26,7 +26,7 @@ module.exports = (app, config) => {
   app.use(compress());
   app.use(express.static(config.root + '/public'));
   app.use(methodOverride());
-
+  
   var controllers = glob.sync(config.root + '/app/controllers/*.js');
   controllers.forEach((controller) => {
     require(controller)(app);

@@ -22,17 +22,17 @@
 			</div>
 			
 			<div id="login_block">
-				Вронский Александр Петрович
+				f i o
 			</div>
 			
 			<div id="return_block">
 				<input id="book_to_return" type="text">
-				<input id="btn_return" type="submit" value="Сдать книгу">
+				<input id="btn_return" type="submit" value="Сдать книгу" onclick="returnBook();">
 			</div>
 			
 			<div id="browse_block">
-				<a href="javascript: void(0)">Книги</a>
-				<a href="javascript: void(0)">Авторы</a>
+				<a href="javascript: rerender(renderBooks,0);">Книги</a>
+				<a href="javascript:rerender(renderAuthors,0);">Авторы</a>
 			</div>
 		</div>
 	</div>
@@ -43,15 +43,14 @@
 	
 	<div id="mid">
 		<div id="content">
-			<!--
-			<div id="pageTitle">Вронский Александр Петрович - "Ненависть" (2001г.)</div>
+			<div id="pageTitle">Шаблон</div>
+			
 			<div id="bookInfo">
 				Житейская быль. Переполненый мрачными эмоциями герой борится с жестокостью окружающего мира и желанием прекратить все страдания.
 			</div>
-			<div id="btnTake"><a href="javascript: void(0)">Заказать</a></div>
-			-->
 			
-			<div id="pageTitle">Список книг</div>
+			<div id="btnTake"><a href="javascript: void(0)">Заказать</a></div>
+			
 			<div id="baList">
 				<div class="listEntry"><a href="javascript: void(0)">"Ненависть" (2001 г.) - Вронский Александр Петрович</a></div>
 				<div class="listEntry"><a href="javascript: void(0)">"Ненависть" (2001 г.) - Вронский Александр Петрович</a></div>
